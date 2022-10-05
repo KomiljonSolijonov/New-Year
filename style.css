@@ -1,0 +1,304 @@
+button {
+  border: 1px solid crimson;
+}
+nav {
+  display: flex;
+  
+}
+.navlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+  }
+  .navlogo img {
+    height: 40px;
+  }
+  .pword {
+    margin: 1px;
+  }
+  .navpages ul  {
+    display: flex;
+    justify-content: space-around;
+  }
+  header {
+    width: 100%;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-around 
+  }
+  .navpages ul li {
+    list-style: none;
+    margin-left: 25px;
+  }
+  .headerinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .headerimg img {
+    height: 400px;
+  }
+  .headertext {
+    width: 350px;
+    font-family: monospace
+  }
+  .headertext button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: red;
+  }
+  .headertext button a  {
+    color: #fff;
+    text-decoration: none;
+  }
+  .celebrate {
+    padding: 20px;
+    margin: 20px
+  }
+  .celebrate h2 {
+    text-align: center;
+  }
+  .giving {
+    display: flex;
+    justify-content: space-around
+  }
+  .giving img {
+    height: 100px;
+  }
+  .celebrity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px
+  }
+  .celebritytext {
+    width: 300px ;
+    margin-right: 80px;
+  }
+  .celebrityimg img   {
+    height: 400px;
+  }
+  .celebritytext button {
+    padding: 15px 50px;
+    background-color: red;
+    border-radius: 25px ;
+  }
+  .celebritytext button a {
+   color: #fff;
+   text-decoration: none;
+  }
+  .gifts {
+    margin: 50px
+  }
+  .gifts h2 {
+    text-align: center;
+  }
+  .Sharegift {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+   
+  }
+  .Sharegift img {
+    height: 100px;
+  }
+  .Sharegift div {
+    background-color: ghostwhite;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 15px gray
+  }
+  .Present {
+    margin: 50px
+  }
+  .Present h2 {
+    text-align: center
+  }
+  .Newgift {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .Newgift div {
+    padding: 20px;
+    box-shadow: 3px 5px 10px gray;
+    border-radius: 15px ;
+    text-align: center;
+    width: 200px 
+  }
+  .Newgift img {
+    height: 100px;
+  }
+  .message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    background-color: crimson;
+    margin: 50px;
+    border-radius: 15px ;
+  }
+  .messageimg img {
+    height: 200px;
+  }
+   .messagetext input {
+     padding: 20px 60px;
+     border: none;
+     border-radius: 25px;
+   }
+   .messagetext button {
+     background-color: black;
+     padding: 20px 30px;
+     border-radius: 25px
+   }
+   .messagetext button a {
+     color: #fff;
+     text-decoration: none;
+   }
+  footer {
+  display: flex;
+  justify-content: space-around;
+  color: #222;
+  padding: 20px;
+
+  }
+  footer ul li {
+  list-style: none;
+  line-height: 30px;
+  }
+  footer a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #222;
+  }
+  @media screen and (max-width: 730px) {
+    .navpages ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .headerinfo {
+      display: flex;
+      flex-direction: column;
+    }
+    .giving {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .celebrity {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .celebritytext {
+      margin-left: 100px;
+    }
+    .Sharegift {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      align-items: center;
+    }
+    .Sharegift div {
+      padding: 20px;
+      border-radius: 15px;
+      width: 200px;
+      box-shadow: 3px 5px 15px gray
+    }
+    .Newgift {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      align-items: center;
+    }
+    .Present h2 {
+      font-size: 30px
+    }
+    .message {
+      width: 100%;
+      height: 400px;
+      padding: 0;
+      margin: 0;
+    }
+    .messagetext {
+      position: absolute;
+     margin-bottom: 150px
+    }
+    .messageimg img {
+      height: 100px ;
+      position: absolute
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+    }
+    .pword {
+      margin-left: 50px;
+    }
+  }
+  
+  /* @media Moslashuvchanlik */
+  @media screen and (max-width: 530px) {
+    .navpages ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .headerinfo {
+      display: flex;
+      flex-direction: column;
+    }
+    .giving {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .celebrity {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .celebritytext {
+      margin-left: 100px;
+    }
+    .Sharegift {
+      display: grid;
+      grid-template-columns: auto;
+      flex-direction: column;
+    }
+    .Newgift {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .Present h2 {
+      font-size: 30px
+    }
+    .message {
+      width: 100%;
+      height: 400px;
+      padding: 0;
+      margin: 0;
+    }
+    .messagetext {
+      position: absolute;
+     margin-bottom: 150px
+    }
+    .messageimg img {
+      height: 100px ;
+      position: absolute
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+    }
+    .pword {
+      margin-left: 50px;
+    }
+  }
+
+  @media screen and (max-width: 454px) {
+    .headerimg img {
+      height: 300px;
+    }
+    
+  }
